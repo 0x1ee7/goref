@@ -1,0 +1,11 @@
+# VCS metadata and local secrets never belong in an image layer.
+.git
+.env
+.env.*
+
+# Build output and test artifacts.
+bin/
+dist/
+*.test
+*.out
+coverage.*
